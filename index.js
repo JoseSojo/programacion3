@@ -9,7 +9,7 @@ const ejs = require('ejs');
 const app = express();
 
 // Settings
-app.set('name', 'Programacion II')
+app.set('name', 'Programacion III - José Sojo')
 app.set('port', process.env.PORT || 7070);
 app.set('views', path.join(__dirname, '/public'));
 app.set('template', path.join(__dirname, '/template'));
